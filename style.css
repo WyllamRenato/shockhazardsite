@@ -13,6 +13,10 @@ body {
     padding: 0px;
 }
 
+header {
+    margin-bottom: 10px;
+}
+
 
 nav.container {
     display: flex;            /* Ativa Flexbox */
@@ -21,21 +25,61 @@ nav.container {
     text-align: center;
 }
 
-.left, .right {
+
+.redes-sociais-left {
+    text-align: right;
+}
+
+.redes-sociais-right {
+    text-align: left;
+
+}
+
+.redes-sociais-left img, .redes-sociais-right img {
+    width: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    
+    
+}
+
+.menu-left, .menu-right {
     display: flex;     
 }
 
-.left a, .right a {
+.menu-left a, .menu-right a {
     font-family: 'Anton', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: normal;
     padding: 10px;
     color: white;
-    text-decoration: none;
+    text-decoration: blue;
 }
 
 img.logo-header {
-    width: 171px;
-    height: 68px;
+    width: 241px;
+    height: 138px;
     padding: 0 20px; 
+}
+
+main img.triad {
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+
+/*HOVERS*/
+
+.redes-sociais-left img:hover,
+.redes-sociais-right img:hover {
+    border: 2px solid red;
+    transition: border 0.2s;
+  
+}
+
+.menu-left a:hover, .menu-right a:hover {
+    text-decoration: underline red;
+    color: red;
+    transition: text-decoration 0.7s, color 0.7s;
 }
