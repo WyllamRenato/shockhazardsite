@@ -55,7 +55,7 @@ nav.container {
     font-weight: normal;
     padding: 10px;
     color: white;
-    text-decoration: blue;
+    text-decoration: rgb(0, 0, 245);
 }
 
 img.logo-header {
@@ -119,10 +119,16 @@ main img.album {
     font-family: 'Anton', sans-serif;
     text-decoration: none;
     color: white;
-    background-color: red;
+    background-color: rgb(200, 0, 0);
     padding: 20px 225px;
     
     
+}
+
+.botao a:hover {
+    border: 2px solid white;
+    background-color: black;
+    transition: background-color 0.7s;
 }
 
 
@@ -131,14 +137,14 @@ main img.album {
 
 .redes-sociais-left img:hover,
 .redes-sociais-right img:hover {
-    border: 2px solid red;
+    border: 2px solid rgb(200, 0, 0);
     transition: border 0.2s;
   
 }
 
 .menu-left a:hover, .menu-right a:hover {
-    text-decoration: underline red;
-    color: red;
+    text-decoration: underline rgb(200, 0, 0);
+    color: rgb(200, 0, 0);
     transition: text-decoration 0.7s, color 0.7s;
 }
 
