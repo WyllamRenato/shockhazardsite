@@ -45,6 +45,14 @@ nav.container {
     
 }
 
+menu ul {
+    list-style-type: none;
+}
+
+menu li {
+    display: inline-block; 
+}
+
 .menu-left, .menu-right {
     display: flex;     
 }
